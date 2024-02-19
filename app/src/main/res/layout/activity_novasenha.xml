@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    tools:context=".activity.Novasenha">
+
+
+  <TextView
+
+      android:id="@+id/tituloNS"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/titulo_Nsenha"
+      android:textSize="40dp"
+      android:textColor="@color/white"
+      android:textStyle="bold"
+      android:layout_marginTop="80dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+
+      />
+
+
+  <View
+      android:id="@+id/containercadastro"
+      style="@style/ContainerComponents"
+      android:layout_width="369dp"
+      android:layout_height="207dp"
+      android:layout_marginTop="32dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.488"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/tituloNS" />
+
+  <EditText
+      android:id="@+id/edit_nome1"
+      style="@style/Edit_text"
+      android:hint="Nome"
+      android:inputType="text"
+      app:layout_constraintTop_toTopOf="@id/containercadastro"
+      app:layout_constraintStart_toStartOf="@id/containercadastro"
+      app:layout_constraintEnd_toEndOf="@id/containercadastro"
+
+
+      />
+
+  <EditText
+      android:id="@+id/edit_mail_novasenha"
+      style="@style/Edit_text"
+      android:drawableRight="@drawable/ic_email"
+      android:hint="Email"
+      android:inputType="textEmailAddress"
+      app:layout_constraintBottom_toBottomOf="@+id/containercadastro"
+      app:layout_constraintEnd_toEndOf="@id/containercadastro"
+      app:layout_constraintStart_toStartOf="@id/containercadastro"
+      app:layout_constraintTop_toBottomOf="@id/edit_nome1" />
+
+
+
+
+  <androidx.appcompat.widget.AppCompatButton
+
+      android:id="@+id/bt_novasenha"
+      style="@style/Button"
+      android:layout_marginTop="56dp"
+      android:text="@string/redefinir"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/containercadastro"
+      app:layout_constraintVertical_bias="0.019" />
+
+  <ImageButton
+      android:id="@+id/imageButtonvoltar1"
+      android:layout_width="103dp"
+      android:layout_height="82dp"
+      android:layout_marginBottom="56dp"
+      android:contentDescription="@string/app_name"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/bt_novasenha"
+      app:layout_constraintVertical_bias="0.843"
+      app:srcCompat="@drawable/logout"
+      tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

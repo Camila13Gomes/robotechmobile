@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">RobotTech</string>
+    <string name="entrar" translatable="false">Entrar</string>
+    <string name="text_cadastro" translatable="false">Criar Nova Conta </string>
+    <string name="text_novasenha" translatable="false">Esqueci Senha</string>
+    <string name="titulo_cadastro" translatable="false">Novo Cadastro</string>
+    <string name="titulo_Nsenha" translatable="false">Nova Senha</string>
+    <string name="Preencher" translatable="false">Por favor, preencha todos os campos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="usuario" translatable="false">Usuario</string>
+    <string name="robo" translatable="false">Robo</string>
+    <string name="novidades_loja" translatable="false">Novidades Loja</string>
+    <string name="senha" translatable="false">Senha</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="nome" translatable="false">Nome</string>
+    <string name="dados_usu_rio" translatable="false">Dados Usuário</string>
+    <string name="deslogar" translatable="false">Deslogar</string>
+    <string name="menu" translatable="false">Menu</string>
+    <string name="_2_passo" translatable="false">2º Passo</string>
+    <string name="baixar_apk_robo" translatable="false">Baixar APK Robo</string>
+    <string name="_1_passo" translatable="false">1º Passo</string>
+    <string name="sair" translatable="false">Sair</string>
+    <string name="redefinir" translatable="false">Redefinir</string>
+    <string name="default_web_client_id">SEU_ID_DO_CLIENTE_DA_WEB</string>
+
+
+</resources>
